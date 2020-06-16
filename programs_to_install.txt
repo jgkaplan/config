@@ -1,0 +1,6 @@
+atom
+telegram
+discord
+chrome
+avast
+iterm2
