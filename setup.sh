@@ -18,3 +18,5 @@ brew install git
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
 zinit self-update
+
+defaults write com.apple.Finder AppleShowAllFiles true
