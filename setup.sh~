@@ -10,7 +10,7 @@ brew cask install font-meslo-lg-nerd-font
 brew install starship
 brew install exa
 brew install git
-brew install macos-trash croc
+brew install macos-trash croc tldr
 
 # mv -S .jbak -b
 

@@ -11,6 +11,8 @@ brew install starship
 brew install exa
 brew install git
 brew install macos-trash croc tldr
+#quicklook plugins
+brew install qlcolorcode qlstephen quicklook-json webpquicklook
 
 # mv -S .jbak -b
 
