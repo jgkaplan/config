@@ -67,10 +67,11 @@ eval "$(starship init zsh)"
 # NVM               #
 #####################
 # export NVM_COMPLETION=true
-export NVM_LAZY_LOAD=true
-export NVM_DIR="$HOME/.nvm"
-zinit light lukechilds/zsh-nvm
-
+# export NVM_LAZY_LOAD=true
+# export NVM_DIR="$HOME/.nvm"
+# zinit light lukechilds/zsh-nvm
+zinit ice wait lucid
+zinit snippet OMZ::plugins/nvm
 #####################
 # EXA colors        #
 #####################
