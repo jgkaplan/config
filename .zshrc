@@ -71,7 +71,7 @@ eval "$(starship init zsh)"
 # export NVM_DIR="$HOME/.nvm"
 # zinit light lukechilds/zsh-nvm
 zinit ice wait lucid
-zinit snippet OMZ::plugins/nvm
+zinit snippet OMZP::nvm
 #####################
 # EXA colors        #
 #####################
