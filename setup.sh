@@ -18,7 +18,12 @@ brew install qlcolorcode qlstephen quicklook-json webpquicklook
 
 # wget https://raw.githubusercontent.com/nathanbuchar/atom-one-dark-terminal/master/scheme/iterm/One%20Dark.itermcolors
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
+sh -c "$(curl -fsSL https://git.io/zinit-install)"
 zinit self-update
 
 defaults write com.apple.Finder AppleShowAllFiles true
+
+cp .vimrc ~/.vimrc
+cp .zshrc ~/.zshrc
+mkdir ~/.config
+cp .config/starship.toml ~/.config/starship.toml
