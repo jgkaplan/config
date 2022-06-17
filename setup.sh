@@ -27,3 +27,5 @@ cp .vimrc ~/.vimrc
 cp .zshrc ~/.zshrc
 mkdir ~/.config
 cp .config/starship.toml ~/.config/starship.toml
+
+xcode-select --install
